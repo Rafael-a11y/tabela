@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="tabelaDeFrutas/src"/>
+	<classpathentry kind="lib" path="bibliotecas/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/byte-buddy-1.11.12.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/classmate-1.5.1.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/dom4j-2.1.3.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/FastInfoset-1.2.15.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/hibernate-commons-annotations-5.1.2.Final.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/hibernate-core-5.4.33.Final.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/istack-commons-runtime-3.0.7.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/jandex-2.2.3.Final.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/javassist-3.27.0-GA.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/jaxb-runtime-2.3.1.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/jboss-logging-3.4.1.Final.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/mysql-connector-java-8.0.27.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/stax-ex-1.8.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/txw2-2.3.1.jar"/>
+	<classpathentry kind="output" path="tabelaDeFrutas/bin"/>
+</classpath>

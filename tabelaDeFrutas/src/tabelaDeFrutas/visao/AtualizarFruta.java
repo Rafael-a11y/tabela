@@ -13,7 +13,7 @@ import javax.swing.table.DefaultTableModel;
 
 import tabelaDeFrutas.controle.FrutaControle;
 import tabelaDeFrutas.modelo.Fruta;
-import tabelaDeFrutas.modelo.FrutaDAO;
+import tabelaDeFrutas.modelo.DAO;
 
 public class AtualizarFruta extends JFrame{
 
@@ -34,7 +34,7 @@ public class AtualizarFruta extends JFrame{
 		criaJanela();
 		this.modelo = md;
 		this.linhaSelecionada = linha;
-		this.fruta = new FrutaDAO().getFrutaById(id);
+		this.fruta = new FrutaControle().getFrutaByYd(id);
 		this.txId.setText(Integer.toString(fruta.getId()));
 		this.txDescricao.setText(fruta.getDescricao());
 		this.txQuantidade.setText(Integer.toString(fruta.getQuantidade()));
@@ -76,7 +76,7 @@ public class AtualizarFruta extends JFrame{
 			fruta.setId(Integer.parseInt(txId.getText()));
 			fruta.setDescricao(txDescricao.getText());
 			fruta.setQuantidade(Integer.parseInt(txQuantidade.getText()));
-			new FrutaControle().atualizar(fruta);
+			new FrutaControle().update(fruta);
 			modelo.removeRow(linhaSelecionada);
 			modelo.addRow(new Object[] {fruta.getId(), fruta.getDescricao(), fruta.getQuantidade()});
 			setVisible(false);

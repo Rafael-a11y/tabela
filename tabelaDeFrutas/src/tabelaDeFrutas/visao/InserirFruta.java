@@ -14,7 +14,7 @@ import javax.swing.table.DefaultTableModel;
 
 import tabelaDeFrutas.controle.FrutaControle;
 import tabelaDeFrutas.modelo.Fruta;
-import tabelaDeFrutas.modelo.FrutaDAO;
+import tabelaDeFrutas.modelo.DAO;
 
 public class InserirFruta extends JFrame{
 
@@ -68,7 +68,7 @@ public class InserirFruta extends JFrame{
 			Fruta f = new Fruta();
 			f.setDescricao(txDescricao.getText());
 			f.setQuantidade(Integer.parseInt(txQuantidade.getText()));
-			new FrutaControle().inserir(f);
+			new FrutaControle().create(f);
 			ListarFruta.pesquisar(modelo);
 			setVisible(false);
 		}

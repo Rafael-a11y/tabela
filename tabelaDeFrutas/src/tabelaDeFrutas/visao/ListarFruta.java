@@ -15,7 +15,7 @@ import javax.swing.table.DefaultTableModel;
 
 import tabelaDeFrutas.controle.FrutaControle;
 import tabelaDeFrutas.modelo.Fruta;
-import tabelaDeFrutas.modelo.FrutaDAO;
+import tabelaDeFrutas.modelo.DAO;
 
 public class ListarFruta extends JFrame{
 
@@ -46,8 +46,8 @@ public class ListarFruta extends JFrame{
 		pesquisar(modelo);
 		
 	}
-	
-	public void criaJanela() {
+		
+		public void criaJanela() {
 		btInserir = new JButton("Inserir");
 		btExcluir = new JButton("Excluir");
 		btEditar = new JButton("Editar");

@@ -59,7 +59,7 @@ public class ExcluirFruta extends JFrame{
 	private class BtSimListener implements ActionListener {
 		@Override
 		public void actionPerformed(ActionEvent e) {
-			new FrutaControle().remover(id);
+			new FrutaControle().remove(id);
 			md.removeRow(linha);
 			setVisible(false);
 		}

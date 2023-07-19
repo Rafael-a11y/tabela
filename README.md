@@ -1,4 +1,4 @@
-<h1 align="center">Tabela de Frutas</h1>
+<h1 align="center">Tabela</h1>
 <p align="center">
   <img src="https://github.com/Rafael-a11y/tabela-de-frutas/assets/63820646/1c0e4ab8-2775-4ff8-8149-6267112de601#vitrinedev" 
     alt="Imagem com título escrito: Tabela - Java Swing e JDBC com MySql">
